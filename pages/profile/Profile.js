@@ -136,27 +136,6 @@ class Profile extends React.Component {
 						<TouchableOpacity onPress={this.handleDescription}>
 							<HistoryRest />
 						</TouchableOpacity>
-						<TouchableOpacity onPress={this.handleDescription}>
-							<HistoryRest />
-						</TouchableOpacity>
-						<TouchableOpacity onPress={this.handleDescription}>
-							<HistoryRest />
-						</TouchableOpacity>
-						<TouchableOpacity onPress={this.handleDescription}>
-							<HistoryRest />
-						</TouchableOpacity>
-						<TouchableOpacity onPress={this.handleDescription}>
-							<HistoryRest />
-						</TouchableOpacity>
-						<TouchableOpacity onPress={this.handleDescription}>
-							<HistoryRest />
-						</TouchableOpacity>
-						<TouchableOpacity onPress={this.handleDescription}>
-							<HistoryRest />
-						</TouchableOpacity>
-						<TouchableOpacity onPress={this.handleDescription}>
-							<HistoryRest />
-						</TouchableOpacity>
 					</ScrollView>
 				</View>
 			</View>

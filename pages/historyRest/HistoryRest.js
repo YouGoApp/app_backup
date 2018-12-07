@@ -15,16 +15,16 @@ class HistoryRest extends React.Component {
         <View style={{flexDirection: 'row'}}>
 					<Image
 						style={styles.images}
-						source={{uri:'https://goo.gl/QvGDjz'}}
+						source={{uri:'http://bit.ly/2GgBI3p'}}
 						/>
 					
 					<View style={{paddingLeft: 15}}>
 						<View style={{paddingBottom: 10}}>
-							<Text style={{fontWeight: 'bold'}}>Restaurant Name</Text>
+							<Text style={{fontWeight: 'bold'}}>Jang Mo Jib 장모집 外母屋</Text>
 						</View>
 
 						<View>
-							<Text>$$$$</Text>
+							<Text>Price Level: N/A</Text>
 						</View>
 					</View>
 				</View>
