@@ -85,7 +85,7 @@ class Description extends React.Component {
 		let images = [];
 
 		for (let i = 0; i < photos.length; i++) {
-			var searchUrl = "https://maps.googleapis.com/maps/api/place/photo?key=AIzaSyADB35yIzQPJnk692vgv-_Iq5ORZgsWr9k&maxwidth=400&photoreference=" + photos[i].photo_reference;
+			var searchUrl = "https://maps.googleapis.com/maps/api/place/photo?key=&maxwidth=400&photoreference=" + photos[i].photo_reference;
 			images.push(searchUrl);
 		}
 
@@ -94,7 +94,7 @@ class Description extends React.Component {
 
 	getDetails = async (selectedItem) => {
 		const id = selectedItem.place_id;
-		var searchUrl = "https://maps.googleapis.com/maps/api/place/details/json?placeid=" + id + "&fields=name,vicinity,formatted_phone_number,reviews&key=AIzaSyADB35yIzQPJnk692vgv-_Iq5ORZgsWr9k";
+		var searchUrl = "https://maps.googleapis.com/maps/api/place/details/json?placeid=" + id + "&fields=name,vicinity,formatted_phone_number,reviews&key=";
 		var resp = await fetch(searchUrl);
 		var json = await resp.json();
 		const result = json.result;
